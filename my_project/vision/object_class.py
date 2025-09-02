@@ -25,5 +25,7 @@ class Obstacle:
 
 if __name__ == '__main__':
     print("called as main executable")
+    main_function()
 else:
     print("called as import")
+    #dont do anything

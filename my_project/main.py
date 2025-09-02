@@ -33,7 +33,10 @@ if __name__ == '__main__':
         #objects_detected = process_image(frame)
         #update navigation system
         #f_vel, rot_vel, pick_sample, pick_rock = navSystem.update(objects_detected, sampleSystem)
+        
+        #simple example
         navSystem.update()
+        
         #mobility.execute(f_vel, rot_vel)
 
         #sample_system(pick_sample, pick_rock)

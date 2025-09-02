@@ -1,7 +1,7 @@
 class State:
 
     def __init__(self,):
-        print('Current state:', str(self))
+        print('Current state modified:', str(self))
 
     def run():
         pass

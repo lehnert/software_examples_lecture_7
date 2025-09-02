@@ -23,7 +23,7 @@ class startState(State):
 
         #event = call calibrate function
         event = 'finished_calibration'
-        time.sleep(0.1)
+        time.sleep(0.01)
 
         #Check transition event
         if event == 'finished_calibration':
@@ -43,7 +43,7 @@ class searchState(State):
         else:
             print('Ball not found')
             event = 'no_ball'
-        time.sleep(0.1)
+        time.sleep(0.01)
 
         #Check transition event
         if event == 'found_ball':
@@ -61,7 +61,7 @@ class moveToBallState(State):
             event = 'got_ball'
         else:
             event = 'no_ball'
-        time.sleep(0.1)
+        time.sleep(0.01)
 
         #Check transition event
         if event == 'got_ball':
